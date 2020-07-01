@@ -6,7 +6,8 @@
 }
 
 .middle {
-    height: 350px;
+        padding-bottom: 50px;
+        padding-top: 25px;
 }
 .bottom{
     background-color: #4d94ff;
@@ -23,6 +24,7 @@
 .top > p {
     color: gray;
     font-size: 14px;
+    margin: 0;
 }
 
 .time {
@@ -181,13 +183,14 @@
     margin-bottom: 25px;
 }
 .btn {
-    margin-top: 55px;
+    margin-top: 15px;
     background-color: #cc0052;
     padding: 10px 15px;
     margin-left: 330px;
     text-decoration: none;
     color: white;
     border-radius: 5px;
+
 }
 .line{
     height: 1px;
@@ -215,4 +218,12 @@
 }
 .botpar{    
     color:  #d9d9d9;
+}
+.social a{
+    transition: 0.5s;
+}
+.social a:hover{
+    background-color: #cc0052;
+    border-radius: 50%;
+    padding: 10px 10px;
 }
