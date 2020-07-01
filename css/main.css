@@ -1,0 +1,218 @@
+.top {
+    height: 500px;
+    background-image: url(/image/main.png);
+    background-size: cover;
+    text-align: center;
+}
+
+.middle {
+    height: 350px;
+}
+.bottom{
+    background-color: #4d94ff;
+    height: 300px;
+}
+/* .time > div {
+    display: table-cell;
+} */
+
+.top > h1 {
+    font-weight: 900;
+    color: black;
+}
+.top > p {
+    color: gray;
+    font-size: 14px;
+}
+
+.time {
+    margin-top: 0px;
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+.time div {
+    display: inline-block;
+    width: 60px;
+    color: white;
+    margin-left: 50px;
+
+}
+.time > div > h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.social a{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    margin-right: 25px;
+    margin-top: 25px    ;
+}
+.social{
+    text-align: center;
+}
+
+
+
+.sub{
+    margin-top: 70px;
+    
+}
+.sub > input {
+    width: 500px;
+    margin-left: 00px;
+    background: transparent;
+    border-top: none;
+    border-right:none ;
+    border-left: none;
+    /* border-bottom: 5px; */
+    color: white;
+    height: 30px;
+}
+.sub a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #cc0052;
+    padding: 10px 15px;
+    margin-top: 30px;
+    margin-left: 0px;
+    color: white;
+    border-radius: 5px;
+    
+}
+.middle > .left {
+    width: 40%;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+.middle > .right {
+    width: 40%;
+    display: inline-block;
+    float: left;
+}
+.middle{
+    display: inline-block;
+}
+.progbar1{
+    height: 3px;
+    background-color: blue;
+    width: 350px;
+    display: inline-block;
+}
+.progbar2{
+    height: 3px;
+    background-color: blue;
+    width: 320px;
+    display: inline-block;
+}
+.progbar3{
+    height: 3px;
+    background-color: blue;
+    width: 320px;
+    display: inline-block;
+}
+.pogbar1{
+    width: 50px;
+    height: 3px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: -5px;
+}
+.pogbar2{
+    width: 80px;
+    height: 3px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: -5px;
+}
+.pogbar3{
+    width: 80px;
+    height: 3px;
+    background-color: gray;
+    display: inline-block;
+    margin-left: -5px;
+}
+.progname{
+    display: block;  
+    margin-bottom: 50px; 
+    position: absolute; 
+}
+.prognum {
+    display: block;
+    margin-left: 390px;
+}
+.left p {
+    color: gray;
+    margin-bottom: 50px;
+
+}
+.left > p > a {
+    text-decoration: none;
+    color:  #cc0052;
+}
+.right p {
+    color: gray;
+    margin-bottom: 20px;
+}
+.right > p > a{
+    text-decoration: none;
+    color:  #cc0052;
+}
+.right {
+    margin-left: 90px;
+}
+.peep {
+    width: 45%;
+    margin-right:18px;
+    height: 30px;
+    border-left: none;
+    border-top: none;
+    border-right: none; 
+}
+.msg {
+    height: 75px;
+    width: 95%;
+    margin-top: 20px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 25px;
+}
+.btn {
+    margin-top: 55px;
+    background-color: #cc0052;
+    padding: 10px 15px;
+    margin-left: 330px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.line{
+    height: 1px;
+    width: 900px;
+    background-color: white ;
+    margin-left: 15%;
+    margin-top: 25px;
+
+}
+.bottom {
+    text-align: center;
+}
+.bottom img{
+    margin-top: 25px;
+    height: 90px;
+}
+.bottom > div > a {
+    text-decoration: none;
+    color: white;
+}
+
+.toppar{
+    color:  #d9d9d9;
+    font-weight: 100;
+}
+.botpar{    
+    color:  #d9d9d9;
+}
