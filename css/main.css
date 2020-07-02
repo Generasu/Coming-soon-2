@@ -1,3 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif  ;
+}
 .top {
     height: 500px;
     background-image: url(/image/main.png);
@@ -100,37 +106,38 @@
 .progbar1{
     height: 3px;
     background-color: blue;
-    width: 350px;
+    width: 90%;
     display: inline-block;
+    
 }
 .progbar2{
     height: 3px;
     background-color: blue;
-    width: 320px;
+    width: 86%;
     display: inline-block;
 }
 .progbar3{
     height: 3px;
     background-color: blue;
-    width: 320px;
+    width: 86%;
     display: inline-block;
 }
 .pogbar1{
-    width: 50px;
+    width: 10%;
     height: 3px;
     background-color: gray;
     display: inline-block;
     margin-left: -5px;
 }
 .pogbar2{
-    width: 80px;
+    width: 14%;
     height: 3px;
     background-color: gray;
     display: inline-block;
     margin-left: -5px;
 }
 .pogbar3{
-    width: 80px;
+    width: 14%;
     height: 3px;
     background-color: gray;
     display: inline-block;
@@ -213,11 +220,11 @@
 }
 
 .toppar{
-    color:  #d9d9d9;
+    color:  ##fff9;
     font-weight: 100;
 }
 .botpar{    
-    color:  #d9d9d9;
+    color:  #fff9;
 }
 .social a{
     transition: 0.5s;
@@ -226,4 +233,17 @@
     background-color: #cc0052;
     border-radius: 50%;
     padding: 10px 10px;
+}
+.scrltop{
+    border-radius: 50%;
+    background-color:#cc0052 ;
+    padding: 10px 21px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30px;
+    scroll-behavior: smooth;
+
 }
