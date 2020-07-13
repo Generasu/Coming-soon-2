@@ -68,7 +68,7 @@ body{
     
 }
 .sub > input {
-    width: 500px;
+    width: 350px;
     margin-left: 00px;
     background: transparent;
     border-top: none;
@@ -150,7 +150,7 @@ body{
 }
 .prognum {
     display: block;
-    margin-left: 390px;
+    margin-left: 90%;
 }
 .left p {
     color: gray;
@@ -193,11 +193,12 @@ body{
     margin-top: 15px;
     background-color: #cc0052;
     padding: 10px 15px;
-    margin-left: 330px;
+    margin-left: 70%;
     text-decoration: none;
     color: white;
     border-radius: 5px;
     display: inline-block;
+    box-shadow: 0 2px 4px #777;
 
 }
 .line{
@@ -243,7 +244,7 @@ body{
     color: white;
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 30px;
     scroll-behavior: smooth;
 
